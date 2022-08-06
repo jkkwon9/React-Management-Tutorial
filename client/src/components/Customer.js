@@ -6,11 +6,10 @@ class Customer extends React.Component{
         return (
             <div>
                 <h2> {this.props.name}({this.props.id}) </h2>
-            
-                {/* <CustomerProfile name={this.props.name} id={this.props.id} />
-                <Customerinfo birthday={this.props.birthday} gendor={this.props.gendor} job={this.props.job} />
-             */}
-            
+                <p> {this.props.birthday} </p>
+                <p> {this.props.gendor} </p>
+                <p> {this.props.job} </p>           
+                
             </div>
         )        
     }
