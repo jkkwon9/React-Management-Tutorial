@@ -11,9 +11,7 @@ const customer  = {
 }
 
 function App() {
-  return (
-
-    <div>
+  return (    
         <Customer
            id={customer.id}
            name={customer.name}
@@ -21,7 +19,7 @@ function App() {
           gendor={customer.gendor}
           job={customer.job}
         />
-   </div>
+   
   );
 }
 export default App;

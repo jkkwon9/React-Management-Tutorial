@@ -5,8 +5,12 @@ class Customer extends React.Component{
     render(){
         return (
             <div>
-                <CustomerProfile name={this.props.name} id={this.props.id} />
+                <h2> {this.props.name}({this.props.id}) </h2>
+            
+                {/* <CustomerProfile name={this.props.name} id={this.props.id} />
                 <Customerinfo birthday={this.props.birthday} gendor={this.props.gendor} job={this.props.job} />
+             */}
+            
             </div>
         )        
     }
